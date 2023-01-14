@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Program Registration</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<style>
+
+		.container {
+			font-family: 'Montserrat', sans-serif;
+			text-align: left;
+			margin-left: 700px;
+			margin-top: 100px;
+		}
+		
+		.input {
+			width: auto;
+			height: auto;
+			border-radius: 3px;
+		}
+
+		body {background-image: url("images/bg.png");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			height: 100%;
+			background-position: center;
+		}
+
+		#button {
+			padding: 10px;
+			margin-top: 20px;
+			background-color: indigo;
+			pointer: cursor;
+			border: 2px solid;
+			height: 50px;
+			width: 200px;
+			font-size: 1.5rem;
+			color: whitesmoke;
+}
+
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+
+		<img src="images/logo.png" width="350px">
+		<h1 id="header">Program Registration</h1>
+
+
+
+	<form class="input">
+		<label>Firstname</label>
+		<input type="text" name=""><br><br>
+
+		<label>lastname</label>
+		<input type="text" name=""><br><br>
+
+		<label>email</label>
+		<input type="email" name=""><br><br>
+
+		<label>Phone number</label>
+		<input type="number" name=""><br><br>
+
+	</form>
+
+		<form>
+			<label>Gender</label>
+			<input type="radio" name="Gender">Male
+			<input type="radio" name="Gender">Female
+			<input type="radio" name="Gender">Other<br>
+
+		</form>
+
+			<button input type="submit" name="" id="button">Submit</button>
+	</div>
+</body>
+</html>
